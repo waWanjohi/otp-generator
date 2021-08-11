@@ -36,7 +36,7 @@ source venv/bin/activate && pip install -r requirements.txt
  5. Create a Kafka Topic called ```otpCodes``` (this is important):
 
  ```bash
- ./scripts/create.sh -n otpCodes
+ ./scripts/create.sh -n otpCodes -c kafka-tmc
  ```
 
  6. Now run the producer.py then consumer.py on separate terminals respectively. Happy coding :)
